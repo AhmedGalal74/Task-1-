@@ -1,0 +1,5 @@
+<launch>
+    <node pkg = "joy" type = "joy_node" name = "joy1" /> 
+    <node pkg = "package1" type = "motion.py" name = "pub" output = "screen" />
+    <node pkg = "package1" type = "joy_control.py" name = "sub" output="screen"/>
+</launch>

@@ -1,0 +1,18 @@
+<launch>
+
+<include file= "$(find package1)/launch/aruco1.launch"/>
+<include file= "$(find package1)/launch/aruco2.launch"/>
+<include file= "$(find package1)/launch/aruco3.launch"/>
+<include file= "$(find package1)/launch/aruco4.launch"/>
+<include file= "$(find package1)/launch/aruco5.launch"/>
+<include file= "$(find package1)/launch/aruco6.launch"/>
+<include file= "$(find package1)/launch/aruco7.launch"/>
+<include file= "$(find package1)/launch/aruco8.launch"/>
+<include file= "$(find package1)/launch/aruco9.launch"/>
+<include file= "$(find package1)/launch/aruco10.launch"/>
+<include file= "$(find package1)/launch/aruco11.launch"/>
+<include file= "$(find package1)/launch/aruco12.launch"/>
+<include file= "$(find package1)/launch/aruco13.launch"/>
+<include file= "$(find package1)/launch/aruco14.launch"/>
+
+</launch>
