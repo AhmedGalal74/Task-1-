@@ -2,5 +2,5 @@
     <include file= "$(find package1)/launch/all_aruco.launch"/>
     <node pkg = "package1" type = "csv_write.py" name = "writer" output = "screen"/> 
     <node pkg = "package1" type = "csv_read.py"  name = "reader" />
-    <node pkg = "package1" type = "csv_final.py" name = "code" output = "screen"/>
+    <node pkg = "package1" type = "traverse.py" name = "code" output = "screen"/>
 </launch>

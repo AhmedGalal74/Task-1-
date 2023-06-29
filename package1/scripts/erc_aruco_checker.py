@@ -64,6 +64,7 @@ class ErcArUcoChecker:
                 dist = np.linalg.norm(user_position-gt_position)
                 if dist <= self.tolerance and self.gt_config[a] != [0,0,0]:
                     points = points + 1.0
+                    print(f"{a} is correct")
 
         return points
 

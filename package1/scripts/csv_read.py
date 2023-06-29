@@ -25,5 +25,5 @@ def get_pos(n): # n is id of switch
         if (not flag):
             return [0,0,0]
         for count in range (3):
-            pos[count] = round(float(pos[count]),5)
+            pos[count] = round(float(pos[count]),4)
     return pos 

@@ -1,0 +1,5 @@
+<launch>
+    <include file= "$(find package1)/launch/all_aruco.launch"/>
+    <node pkg = "package1" type = "csv_read.py"  name = "reader" />
+    <node pkg = "package1" type = "traverse1.py" name = "code" output = "screen"/>
+</launch>
